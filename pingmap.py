@@ -20,7 +20,7 @@ if a == 1:
     os.system(f"ping -c {t} {p}")
 elif a == 2:
     p = input("choose the IP you want : ")
-    print(f"[+] Attackig {p}")
+    print(f"[+] Attackig {p} ... ")
     os.system(f"nmap  {p}")
 else:
     print("enter correct number")        
